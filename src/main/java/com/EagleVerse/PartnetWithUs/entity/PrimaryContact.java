@@ -9,7 +9,7 @@ import lombok.Setter;
 @Setter
 @Entity
 @Table(name = "primary_contact")
-public class PrimaryContact {
+public class PrimaryContact extends BaseEntity {
     private String fullName;
     private String email;
     private String phone;
