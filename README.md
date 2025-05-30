@@ -13,3 +13,12 @@ business type, GSTIN
 The form may also internally capture the source (e.g., "website", "campaign", "app" etc.)
 - Frontend Sends:
 All this data will be bundled into one PartnerLeadRequest and sent to the backend via a POST API.
+
+## 31st May: Made DTOS, REST controlled, Linked with MySQL
+- POST /api/leads to create lead Body param: PartnerLeadRequest
+- GET /api/leads to get all leads
+- GET /api/leads/{id} to get lead by id
+- PATCH /api/leads/{id}/status to update status of id
+- DELETE /api/leads/{id} to detlete the lead with that id
+  
+ ## Pending Work : Test endpoints , fix small bugs, incorporate suggestions from the team
