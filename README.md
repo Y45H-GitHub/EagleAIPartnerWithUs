@@ -2,8 +2,8 @@
 Partner With Us backend 
 
 # Updates
-- 30th May, 2025 : Made entities Business Details, PartnerLead, PrimaryContact, SalonInfo
-- When a salon owner or manager opens the “Partner With Us” form, they’ll fill out fields like:
+## 30th May, 2025 : Made entities Business Details, PartnerLead, PrimaryContact, SalonInfo
+When a salon owner or manager opens the “Partner With Us” form, they’ll fill out fields like:
 Salon Info:
 name, branch number, city, average monthly footfall, client type (walk-in, appointment, etc.)
 Primary Contact:
