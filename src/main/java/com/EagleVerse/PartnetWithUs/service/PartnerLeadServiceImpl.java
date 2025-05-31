@@ -91,7 +91,16 @@ public class PartnerLeadServiceImpl implements PartnerLeadService{
         return PartnerLeadResponse.builder()
                 .id(lead.getId())
                 .status(lead.getStatus().name())
-                .createdAt(lead.getCreatedAt().toString()) // you can format this if needed
+                .createdAt(lead.getCreatedAt().toString())
+                .city(lead.getSalonInfo().getCity())// you can format this if needed
+                .branchNumber(lead.getSalonInfo().getBranchNumber())
+                .businessType(lead.getBusinessDetail().getBusinessType())
+                .clientType(lead.getSalonInfo().getClientType())
+                .salonName(lead.getSalonInfo().getName())
+                .contactDesignation(lead.getPrimaryContact().getDesignation())
+                .contactEmail(lead.getPrimaryContact().getEmail())
+                .contactName(lead.getPrimaryContact().getFullName())
+                .contactPhone(lead.getPrimaryContact().getPhone())
                 .build();
     }
 

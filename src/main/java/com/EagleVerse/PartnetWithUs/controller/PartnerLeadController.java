@@ -4,11 +4,11 @@ import com.EagleVerse.PartnetWithUs.dto.PartnerLeadRequest;
 import com.EagleVerse.PartnetWithUs.dto.PartnerLeadResponse;
 import com.EagleVerse.PartnetWithUs.entity.LeadStatus;
 import com.EagleVerse.PartnetWithUs.service.PartnerLeadServiceImpl;
+import jakarta.validation.Valid;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
-import javax.validation.Valid;
 import java.util.List;
 import java.util.UUID;
 
