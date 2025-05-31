@@ -22,3 +22,23 @@ All this data will be bundled into one PartnerLeadRequest and sent to the backen
 - DELETE /api/leads/{id} to detlete the lead with that id
   
  ## 31st May update 2: Testing of APIs done with postman. API public access left. After testing with frontend will host it.
+ ### For testing on the frontend the JSON body must be like [on POST <api_url>/api/leads] 
+ ```
+{
+  "source": "",
+  "salonName": "",
+  "branchNumber": "",
+  "city": "",
+  "avgMonthlyFootfall": <number>,
+  "clientType": "",
+  "contactName": "",
+  "contactEmail": "",
+  "contactPhone": "",
+  "contactDesignation": "",
+  "businessType": "",
+  "gstin": ""
+}
+ ```
+### Required fields : salonName, city, avgMonthlyFootfall, clientType, contactName, contactPhone.
+
+
