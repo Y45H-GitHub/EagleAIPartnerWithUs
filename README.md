@@ -21,4 +21,4 @@ All this data will be bundled into one PartnerLeadRequest and sent to the backen
 - PATCH /api/leads/{id}/status to update status of id
 - DELETE /api/leads/{id} to detlete the lead with that id
   
- ## Pending Work : Test endpoints , fix small bugs, incorporate suggestions from the team
+ ## 31st May update 2: Testing of APIs done with postman. API public access left. After testing with frontend will host it.
